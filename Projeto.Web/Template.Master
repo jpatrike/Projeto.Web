@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Template.master.cs" Inherits="Projeto.Web.Template" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Content/bootstrap-theme.min.css" rel="stylesheet" />
+</head>
+<body class="container">
+    <form id="form1" runat="server">
+        <div>
+
+            <div class="well well-sm">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h2>Projeto</h2>
+                        <hr/>
+                    </div>
+                </div>
+            </div>
+
+            <asp:ContentPlaceHolder ID="conteudoPrincipal" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
