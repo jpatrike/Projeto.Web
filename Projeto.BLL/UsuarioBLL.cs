@@ -12,6 +12,7 @@ namespace Projeto.BLL
     {
         public void CadastrarUsuario(Usuario u)
         {
+
             UsuarioDAL d = new UsuarioDAL();
             d.Inserir(u);
         }
