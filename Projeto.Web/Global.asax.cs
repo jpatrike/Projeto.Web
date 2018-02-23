@@ -11,6 +11,7 @@ namespace Projeto.Web
     {
         protected void Application_Start(object sender, EventArgs e)
         {
+
         }
     }
 }
